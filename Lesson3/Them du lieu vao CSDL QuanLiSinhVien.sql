@@ -5,7 +5,7 @@ insert into Class (ClassName, StartDate, Status) values
 
 insert into Student (StudentName, Address, Phone, Status, ClassID) values
 ('Hung', 'Ha noi', '0912113113', 1, 1),
-('Hoa', 'Hai phong', null, 1, 1),
+('Hoa', 'Hai phong', '', 1, 1),
 ('Manh', 'HCM', '0123123123', 0, 2);
 
 insert into Subject (SubName, Credit, Status) values

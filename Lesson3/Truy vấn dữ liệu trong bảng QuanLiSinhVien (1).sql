@@ -11,3 +11,4 @@ select s.StudentName, su.SubName, m.Mark  from Student s
 join Mark m on s.StudentID = m.StudentID 
 join Subject su on m.SubID = su.SubID 
 where su.SubName = 'CF';
+
