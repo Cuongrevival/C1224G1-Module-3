@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Phim Hoạt Hình</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Header -->
+<header class="navbar">
+  <div class="logo">Phim Hoạt Hình</div>
+</header>
+
+<!-- Thanh điều hướng -->
+<nav class="head-link">
+  <ul>
+    <li><a href="#">Trang chủ</a></li>
+    <li><a href="#">Phim mới</a></li>
+    <li><a href="#">Phim hot</a></li>
+    <li><a href="#">Liên hệ</a></li>
+  </ul>
+</nav>
+
+<!-- Bố cục chính -->
+<div class="container">
+  <!-- Menu trái -->
+  <aside class="left-content">
+    <h3>Danh sách phim</h3>
+    <ul id="video-list">
+      <li><a href="#" onclick="changeVideo('https://www.youtube.com/embed/Rc6WrbiJwUM')">Phim 1 - Thuyết Minh</a></li>
+      <li><a href="#" onclick="changeVideo('https://www.youtube.com/watch?v=vEMId4GUEVQ')">Phim 2 - Thuyết Minh</a></li>
+      <li><a href="#" onclick="changeVideo('https://www.youtube.com/watch?v=cRGAFmSCRFE')">Phim 3 - Thuyết Minh</a></li>
+    </ul>
+  </aside>
+
+  <!-- Nội dung video -->
+  <main class="right-content">
+    <iframe id="video-frame" width="100%" height="400" src="https://www.youtube.com/embed/Rc6WrbiJwUM"
+            frameborder="0" allowfullscreen>
+    </iframe>
+  </main>
+</div>
+
+<!-- Footer -->
+<footer class="footer">
+  © 2025 Phim Hoạt Hình - Không Quảng Cáo, Chạy Mượt
+</footer>
+
+<script>
+  function changeVideo(url) {
+    document.getElementById("video-frame").src = url;
+  }
+</script>
+
+</body>
+</html>

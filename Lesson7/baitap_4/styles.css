@@ -1,0 +1,110 @@
+/* Tổng thể */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header */
+.navbar {
+    background-color: #ff6600;
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    text-align: center;
+}
+
+/* Thanh điều hướng */
+.head-link {
+    margin-top: 50px;
+    background-color: #333;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.head-link ul {
+    list-style: none;
+    padding: 0;
+}
+
+.head-link ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.head-link ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.head-link ul li a:hover {
+    color: #ffcc00;
+}
+
+/* Bố cục chính */
+.container {
+    display: flex;
+    margin: 20px;
+    margin-top: 80px;
+}
+
+/* Menu trái */
+.left-content {
+    width: 25%;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.left-content h3 {
+    text-align: center;
+}
+
+.left-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.left-content ul li {
+    margin-bottom: 10px;
+}
+
+.left-content ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.left-content ul li a:hover {
+    background-color: #ff6600;
+    color: white;
+}
+
+/* Nội dung video */
+.right-content {
+    width: 75%;
+    padding: 20px;
+}
+
+/* Footer */
+.footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
